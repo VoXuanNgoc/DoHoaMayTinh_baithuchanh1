@@ -1,0 +1,21 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug OpenGL Demo",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/bin/opengl_demo.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": true,
+            "MIMode": "gdb",
+            "miDebuggerPath": "gdb",
+            "setupCommands": [
+                { "text": "set print pretty on", "description": "enable pretty printing", "ignoreFailures": true }
+            ]
+        }
+    ]
+}
